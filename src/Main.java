@@ -3,9 +3,8 @@ public class Main {
 
         BonusMilesService service = new BonusMilesService();
 
-        int price = 10_521;
-        int cost = 20;
-        int miles = service.calculate(price, cost);
+        int price = 20_521;
+        int miles = service.calculate(price);
 
         System.out.println("miles you have - " + miles);
 
